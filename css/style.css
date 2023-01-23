@@ -10,8 +10,54 @@ Reset
     box-sizing: border-box;
 }
 
-div {
+.container1 {
+    height: 65px;
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.colonnalogo {
+    height: 35px;
+    width: 200px;
+    background-color: #daa520;
+    border: dashed black 2px;
+    padding: 5px;
+
+}
+
+.colonnalink {
+    height: 35px;
+    width: 570px;
+    background-color: #daa520;
+    border: dashed black 2px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.colonnalogin {
+    height: 35px;
+    width: 200px;
+    background-color: #daa520;
+    border: dashed black 2px;
+    padding: 5px;
+
+}
+
+.container2 {
     height: 400px;
-    width: 400px;
-    background-color: aqua;
+    background-color: #00008b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sezione1 {
+    height: 320px;
+    width: 720px;
+    background-color: #ee82ee;
+    border: dashed black 2px;
 }
