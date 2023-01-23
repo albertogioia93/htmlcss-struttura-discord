@@ -10,6 +10,12 @@ Reset
     box-sizing: border-box;
 }
 
+/* 
+---------------------------
+Header
+---------------------------
+*/
+
 .container1 {
     height: 65px;
     background-color: #add8e6;
@@ -61,3 +67,62 @@ Reset
     background-color: #ee82ee;
     border: dashed black 2px;
 }
+
+/* 
+---------------------------
+Main
+---------------------------
+*/
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-color: #d3d3d3;
+}
+
+
+
+.col-big {
+    height: 380px;
+    width: 580px;
+    background-color: #1e90ff;
+    border: dashed black 2px;
+}
+
+.col-small {
+    height: 380px;
+    width: 380px;
+    background-color: #ffc0cb;
+    border: dashed black 2px;
+}
+
+.row3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 790px;
+    background-color: #d3d3d3;
+}
+
+.greensection {
+    height: 720px;
+    width: 960px;
+    background-color: #228b22;
+    border: dashed black 2px;
+}
+
+
+/* 
+---------------------------
+Footer
+---------------------------
+*/
